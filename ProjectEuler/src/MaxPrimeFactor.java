@@ -1,5 +1,5 @@
 
-public class Prime {
+public class MaxPrimeFactor {
 	static boolean isPrime(long i) {
 		long j=2;
 		while(j<i) {
@@ -21,7 +21,7 @@ public class Prime {
 
 	public static void main(String[] args) {
 		long n=  10L;
-		System.out.println(Prime.largePrime(n));
+		System.out.println(MaxPrimeFactor.largePrime(n));
 
 	}
 }
